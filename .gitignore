@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.env
+
+# VSCode or other IDE settings
+.vscode/
+.idea/
+
+# macOS / Linux
+.DS_Store
+Thumbs.db
+
+# Data folders
+data/raw/
+data/processed/
+
+# Model and output files
+*.pkl
+*.joblib
+*.h5
+*.log
+
+# App-specific
+app/model.pkl
+
+# Python egg info
+*.egg-info/
+dist/
+build/
+
+# System files
+*.swp
+*.bak
+
+# Test results
+*.pytest_cache/
+.coverage
+
+# Pip dependency logs
+pip-log.txt
+
+# Jupyter outputs (optional)
+*.nbconvert.ipynb
