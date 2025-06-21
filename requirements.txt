@@ -1,0 +1,27 @@
+# Core
+pandas
+numpy
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Modeling
+xgboost
+lightgbm  # optional, depending on model choice
+
+# Web App
+streamlit    # if you're using Streamlit
+
+# Serialization
+# joblib       # or use pickle (built-in)
+
+# Testing
+pytest
+
+# Notebook support
+jupyter
+
+# Optional (handling imbalance, etc.)
+imblearn
