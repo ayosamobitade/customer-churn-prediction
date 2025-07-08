@@ -69,7 +69,7 @@ The dataset CSV should be placed in `data/raw/telco_customer_churn.csv`.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ayosamobitade/customer-churn-prediction/customer-churn-prediction.git
+git clone https://github.com/ayosamobitade/customer-churn-prediction.git
 cd customer-churn-prediction
 ```
 
