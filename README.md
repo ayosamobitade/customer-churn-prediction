@@ -45,7 +45,7 @@ customer-churn-prediction/
 ├── LICENSE
 └── setup.py
 
-
+```
 
 ---
 
@@ -71,16 +71,18 @@ The dataset CSV should be placed in `data/raw/telco_customer_churn.csv`.
 ```bash
 git clone https://github.com/yourusername/customer-churn-prediction.git
 cd customer-churn-prediction
-
+```
 
 2. Create and activate a virtual environment (optional but recommended):
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 
 3. Install dependencies:
 
 ```bash
 pip install -r app/requirements.txt
+```
