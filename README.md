@@ -86,3 +86,55 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r app/requirements.txt
 ```
+
+4. Place the raw dataset CSV file in data/raw/.
+
+## Usage
+### Data Processing and Model Training
+
+Run the notebooks sequentially:
+
+- notebooks/01_eda.ipynb — Explore and visualize data.
+
+- notebooks/02_feature_engineering.ipynb — Preprocess and engineer features.
+
+- notebooks/03_model_training.ipynb — Train models and save the best one.
+
+Alternatively, you can run scripts from the src/ folder for preprocessing and training.
+Launch the Web App
+
+Run the Streamlit app to interactively predict churn:
+```bash
+streamlit run app/app.py
+```
+
+This will open a web interface to input customer details and get a churn prediction.
+
+## Technologies Used
+- Python 3.8+
+- Pandas, NumPy — Data manipulation
+- Scikit-learn — Machine learning models and utilities
+- XGBoost — Gradient boosting classifier
+- Streamlit — Web application framework for deployment
+- Joblib — Model serialization
+
+## Testing
+
+Run tests to verify functionality:
+```bash
+pytest tests/
+```
+## Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+For questions or support, please contact [Ayobami Samuel Obitade](ayosamobitade@gmail.com).
+
+## Acknowledgments
+- Kaggle Telco Customer Churn Dataset
+- Streamlit community for great UI tools
+- Open source contributors
+
